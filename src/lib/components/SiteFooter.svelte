@@ -8,7 +8,7 @@
 <footer class="footer">
 	<div class="inner">
 		<p class="copy">© {year} {siteMeta.author}. Tutti i diritti riservati.</p>
-		<a class="top" href={homeSection('#hero')}>Torna su</a>
+		<a class="top" href={homeSection('#intro')}>Torna su</a>
 	</div>
 </footer>
 

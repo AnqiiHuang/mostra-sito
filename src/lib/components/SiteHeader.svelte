@@ -11,7 +11,7 @@
 
 <header class="header">
 	<div class="inner">
-		<a class="logo" href={homeSection('#hero')} onclick={closeMenu}>{siteMeta.shortTitle}</a>
+		<a class="logo" href={homeSection('#intro')} onclick={closeMenu}>{siteMeta.shortTitle}</a>
 
 		<button
 			type="button"

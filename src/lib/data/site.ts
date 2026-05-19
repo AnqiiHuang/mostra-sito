@@ -28,11 +28,11 @@ export type SocialLink = {
 };
 
 export const siteMeta = {
-	title: 'Portfolio — Fotografia',
-	shortTitle: 'Nome Cognome',
+	title: 'Botanica Sonora — Mostra',
+	shortTitle: 'Botanica Sonora',
 	description:
-		'Portfolio fotografico minimalista: progetti editoriali, ritratti e still life.',
-	author: 'Nome Cognome',
+		'Mostra immersiva: botanica, fotografia, sound design e spettrogrammi in sei tappe.',
+	author: 'Botanica Sonora',
 	locale: 'it-IT'
 } as const;
 
@@ -114,9 +114,9 @@ export const contactContent = {
 } as const;
 
 export const navLinks = [
-	{ href: '#hero', label: 'Home' },
-	{ href: '#gallery', label: 'Galleria' },
-	{ href: '#projects', label: 'Progetti' },
-	{ href: '#about', label: 'About' },
-	{ href: '#contact', label: 'Contatti' }
+	{ href: '#intro', label: 'Inizio' },
+	{ href: '#tappa-1', label: '01' },
+	{ href: '#tappa-3', label: '03' },
+	{ href: '#tappa-6', label: '06' },
+	{ href: '#mappa', label: 'Mappa' }
 ] as const;
